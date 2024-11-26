@@ -1,4 +1,4 @@
-﻿namespace focus_aid
+﻿namespace focus_aid.ConsoleUI
 {
     internal class Program
     {

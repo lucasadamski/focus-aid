@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "focus-aid", "focus-aid\focus-aid.csproj", "{C1834250-D43F-41D2-A5BD-94FC8214A368}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "focus-aid.ConsoleUI", "focus-aid\focus-aid.ConsoleUI.csproj", "{C1834250-D43F-41D2-A5BD-94FC8214A368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "focus_aid.BusinessLogic", "focus_aid.BusinessLogic\focus_aid.BusinessLogic.csproj", "{D459CC50-F2A0-4D26-B52A-937B84E3D689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "focus_aid.DataAccess", "focus_aid.DataAccess\focus_aid.DataAccess.csproj", "{51A0391C-E67A-4ED1-9B29-3295BBEAC3BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C1834250-D43F-41D2-A5BD-94FC8214A368}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1834250-D43F-41D2-A5BD-94FC8214A368}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1834250-D43F-41D2-A5BD-94FC8214A368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D459CC50-F2A0-4D26-B52A-937B84E3D689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D459CC50-F2A0-4D26-B52A-937B84E3D689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D459CC50-F2A0-4D26-B52A-937B84E3D689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D459CC50-F2A0-4D26-B52A-937B84E3D689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A0391C-E67A-4ED1-9B29-3295BBEAC3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A0391C-E67A-4ED1-9B29-3295BBEAC3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A0391C-E67A-4ED1-9B29-3295BBEAC3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A0391C-E67A-4ED1-9B29-3295BBEAC3BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
