@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "focus_aid.BusinessLogic", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "focus_aid.DataAccess", "focus_aid.DataAccess\focus_aid.DataAccess.csproj", "{51A0391C-E67A-4ED1-9B29-3295BBEAC3BC}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "focus_aid.Prod_DB", "focus_aid.Prod_DB\focus_aid.Prod_DB.sqlproj", "{6D235D79-0B7E-4F03-9719-261C7901350C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{51A0391C-E67A-4ED1-9B29-3295BBEAC3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A0391C-E67A-4ED1-9B29-3295BBEAC3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A0391C-E67A-4ED1-9B29-3295BBEAC3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D235D79-0B7E-4F03-9719-261C7901350C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D235D79-0B7E-4F03-9719-261C7901350C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D235D79-0B7E-4F03-9719-261C7901350C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6D235D79-0B7E-4F03-9719-261C7901350C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D235D79-0B7E-4F03-9719-261C7901350C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D235D79-0B7E-4F03-9719-261C7901350C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

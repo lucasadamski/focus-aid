@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Beeper]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[Time] INT,
+	[Type] INT,
+	[UserID] CHAR(40) NOT NULL
+)
