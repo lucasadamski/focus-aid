@@ -1,0 +1,90 @@
+Focus Aid
+	Software to countdown time in order to maintain focus. After finished session you can provide feedback on your focus session: was I focused or not? 
+	
+Dictionary:
+	Focus sessions: a countdown sessions. eg 45 minutes
+	Interval: beep in a sessions, eg. every 15 minutes
+	Feedback description: describe your feelings, distractions, why you were focused.
+	Feedback check: yes/no - was I foucesed?
+
+Core features:
+	- Start Session:
+		- set time
+		- set interval (optional)
+	- Give feedback after session: 
+		- check
+		- description (optional)
+	- Generate report
+		- checks + description from last X weeks
+		
+
+	
+	
+Console UI
+	- UI displays and generates the countdown logic 
+	
+
+Code:
+	
+	Console UI
+		- parse arguments: 
+			- -s -> start session
+				- -s 45 -> 45 
+				- -s 45/15 -> 45 min with 15 min interval
+			- -c -> cancel current session
+			- -d -> delete last session
+			- -f -> provide feedback
+				- -f y -> feedback yes
+				- -f n -> feedback no
+				- -f y -m "Everything was cool" -> optional message for feedback
+			- -r -> generate report
+				- -r 2w -> last 2 weeks
+				- -r -2m -> last 2 months
+				- -r 2016-02-01 2016-04-01 -> from date to date 
+		- display countdown: 
+			- 00:43:23 . . .  - 43 min 23 sec left
+			- last sessions was successful or not successful
+	BL
+		- Start session
+		- End Session
+		- Get feedback
+		- Get raport request
+		- Provide raport data to UI
+		- 
+		- Write data to DAL
+		- Get data from DAL
+		- Create local user
+		- 
+		
+			Session class:
+				startTime
+				time
+				focused
+				description
+				UserID
+				---
+				Start
+				End
+				Cancel
+				ProvideFeedback
+				FetchUserID
+				
+			Report class
+				StartTime
+				EndTime
+				UserID
+				---
+				FetchUserID 
+				
+				
+			Static Authentication
+				UserID //for console is hardcoded "localConsoleUser"
+			
+			
+				
+	DAL
+		- Stored Procedures only
+		- CRD
+	DB
+
+		
