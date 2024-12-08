@@ -61,7 +61,17 @@
     <Folder Include="dbo\StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\FocusSession.sql" />
+    <Build Include="dbo\Tables\Session.sql" />
     <Build Include="dbo\Tables\Beeper.sql" />
+    <Build Include="dbo\StoredProcedures\spSession_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spSession_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spSession_DeleteLastOne.sql" />
+    <Build Include="dbo\StoredProcedures\spSession_GetFromDateToDate.sql" />
+    <Build Include="dbo\StoredProcedures\spSession_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spBeeper_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spBeeper_Update.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
