@@ -44,10 +44,13 @@ Code:
 		- display countdown: 
 			- 00:43:23 . . .  - 43 min 23 sec left
 			- last sessions was successful or not successful
-	BL
+	
+
+	Busuiness Layer Core Features
 		- Start session
 		- End Session
-		- Get feedback
+		- Initiate feedback
+		- Request feedback
 		- Get raport request
 		- Provide raport data to UI
 		- 
