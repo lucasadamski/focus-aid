@@ -8,9 +8,9 @@ namespace focus_aid.BusinessLogic
 {
     public class CountdownSessionManager : ICountdownSession
     {
-        public bool IsSessionActive { get; set; }
-        public int InitialSeconds { get; set; }
-        public int SecondsElapsed { get; set; }
+        public bool IsSessionActive { get; private set; }
+        public int InitialSeconds { get; private set; }
+        public int SecondsElapsed { get; private set; }
 
         public bool Cancel()
         {
