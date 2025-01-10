@@ -8,10 +8,10 @@ namespace focus_aid.BusinessLogic
 {
     public interface ICountdownSession
     {
-        bool Start(int seconds);
+        bool Start();
         bool Stop();
         bool Pause();
         bool Cancel();
-        bool DelegateCountdownToUI(int seconds);
+        bool DelegateCountdownToUI();
     }
 }

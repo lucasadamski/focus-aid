@@ -22,9 +22,9 @@ namespace focus_aid.BusinessLogic
             throw new NotImplementedException();
         }
 
-        public bool DelegateCountdownToUI(int seconds) // that should be in external software
+        public bool DelegateCountdownToUI() // that should be in external software
         {
-            throw new NotImplementedException();
+            return true; 
         }
 
         public bool Pause()
@@ -32,9 +32,16 @@ namespace focus_aid.BusinessLogic
             throw new NotImplementedException();
         }
 
-        public bool Start(int seconds)
+        public bool Start()
         {
-            throw new NotImplementedException();
+            if (DelegateCountdownToUI())
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public bool Stop()
