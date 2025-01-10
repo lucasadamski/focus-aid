@@ -11,13 +11,18 @@ namespace focus_aid.BusinessLogic
         public bool IsSessionActive { get; private set; }
         public int InitialSeconds { get; private set; }
         public int SecondsElapsed { get; private set; }
-
+        public CountdownSessionManager()
+        { }
+        public CountdownSessionManager(int seconds)
+        {
+            InitialSeconds = seconds;
+        }
         public bool Cancel()
         {
             throw new NotImplementedException();
         }
 
-        public bool DelegateCountdownToUI(int seconds)
+        public bool DelegateCountdownToUI(int seconds) // that should be in external software
         {
             throw new NotImplementedException();
         }
