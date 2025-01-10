@@ -12,6 +12,6 @@ namespace focus_aid.BusinessLogic
         bool Stop();
         bool Pause();
         bool Cancel();
-        bool DelegateCountdownToUI();
+        public bool DelegateCountdownToUI();
     }
 }

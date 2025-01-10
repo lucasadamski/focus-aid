@@ -8,24 +8,58 @@ namespace focus_aid.BusinessLogicTests
 {
     public class CountdownSessionManagerUnitTests
     {
-        public int InitializedSeconds = 3600;
         
         [Test]
-        public void Start_InitializesSecondsPropertiesAndDelegatesToUI_ReturnsTrue()
+        public void Start_InitializesWithoutSeconds_ReturnsFalse()
         {
             // Arrange
-            var csm = A.Fake<CountdownSessionManager>();
+            var csm = new CountdownSessionManager();
 
             // Act
-
             bool result = csm.Start();
 
+            // Assert
+            result.Should().Be(false); 
+        }
+
+        [Test]
+        public void Start_InitializesWithNegativeSeconds_ReturnsFalse()
+        {
+            // Arrange
+            var csm = new CountdownSessionManager(-73);
+
+            // Act
+            bool result = csm.Start();
 
             // Assert
-   
-            result.Should().Be(true);
-            A.CallTo(() => csm.DelegateCountdownToUI()).MustHaveHappened(); //can't intercept ? why? interface? 
-
+            result.Should().Be(false);
         }
+
+        [Test]
+        public void Start_InitializesWithZeroSeconds_ReturnsFalse()
+        {
+            // Arrange
+            var csm = new CountdownSessionManager(0);
+
+            // Act
+            bool result = csm.Start();
+
+            // Assert
+            result.Should().Be(false);
+        }
+
+        [Test]
+        public void Start_InitializesWithPositiveSeconds_ReturnsTrue()
+        {
+            // Arrange
+            var csm = new CountdownSessionManager(3600);
+
+            // Act
+            bool result = csm.Start();
+
+            // Assert
+            result.Should().Be(true);
+        }
+
     }
 }

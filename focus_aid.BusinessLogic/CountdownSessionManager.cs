@@ -34,7 +34,11 @@ namespace focus_aid.BusinessLogic
 
         public bool Start()
         {
-            if (DelegateCountdownToUI())
+            if (InitialSeconds < 1)
+            {
+                return false;
+            }
+            if (DelegateCountdownToUI() == true)
             {
                 return true;
             }
