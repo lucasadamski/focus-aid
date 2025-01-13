@@ -19,8 +19,7 @@ namespace focus_aid.BusinessLogic
         }
         public bool Cancel()
         {
-            throw new NotImplementedException();
-        }
+            throw new NotImplementedException();        }
 
         public bool DelegateCountdownToUI() // that should be in external software
         {
