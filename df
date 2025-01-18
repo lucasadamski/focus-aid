@@ -1,0 +1,103 @@
+[33mcommit 0c2dd9e35e3f400a38c9bfe51ed8a9c3f046b242[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Mon Jan 13 08:48:33 2025 +0000
+
+    Create DTO struct between BL and UI
+
+[33mcommit 213c45c3fee9fa41484f5a957f42f6990ba6c311[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Mon Jan 13 08:41:47 2025 +0000
+
+    Create instruction for communication between
+    UI and Business Logic
+
+[33mcommit 4eccb8d082d38e74fc3f55c240f57454d769d97a[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Mon Jan 13 08:25:48 2025 +0000
+
+    Minor change
+
+[33mcommit e16ce1d8b16a23ab4cb3a0ff95b8ca8cc8e1a7dd[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Fri Jan 10 17:12:54 2025 +0000
+
+    Created tests
+
+[33mcommit 204d0f5a2104afe8468a8dc19d6df9fc5d11dc24[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Fri Jan 10 15:12:41 2025 +0000
+
+    First test
+
+[33mcommit 2e06c46d6dc01c24e84544812a82319b88a56dea[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Fri Jan 10 08:54:15 2025 +0000
+
+    Developing tests for CountdownSessionManager
+
+[33mcommit a7dae54a872f45b376fce349c11186c03a3be347[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Fri Jan 10 08:44:07 2025 +0000
+
+    Change to properties access level.
+
+[33mcommit eceef1528def4575cee2f01f2ca66a79ffadd847[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Thu Jan 9 08:25:42 2025 +0000
+
+    Create template for Countdown class and interface. This will manage timing sessions
+    and is a core functionality of an app.
+
+[33mcommit c5111ac7c0949166d8812cd5c0dc1b6c5e76aed2[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Wed Jan 8 12:43:36 2025 +0000
+
+    New test project for BL
+
+[33mcommit 8c6eeb6996254396f2567136681181f13ed6abe1[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Wed Jan 8 12:41:14 2025 +0000
+
+    Minor changes to the documentation
+
+[33mcommit 98fb8191a15ec75b0b93bb860b4cb059f524a12d[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Sun Dec 8 13:33:37 2024 +0000
+
+    Add Stored Procedures
+
+[33mcommit 00869e6f14923413c176fa945fc955c7fd5d0131[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Sun Dec 8 12:08:10 2024 +0000
+
+    Add documentation
+
+[33mcommit f6e9ee6af8cd4474123bb282ac12e2e6b044ab1d[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Tue Nov 26 17:06:18 2024 +0000
+
+    Added DB and tables
+
+[33mcommit 71417edbc3b9bd200252f4aef7f2960959449923[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Tue Nov 26 11:01:46 2024 +0000
+
+    Added projects for N-Tier architecture
+
+[33mcommit 2fa03804fc305667359e8f950a743ee331481c2a[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Tue Nov 26 10:50:22 2024 +0000
+
+    Creating solution for console UI
+
+[33mcommit d9e2b49ef2c8533946c2ba79923b8192a57b6904[m
+Author: Lucas Adams <lucasadams@protonmail.com>
+Date:   Tue Nov 26 10:39:25 2024 +0000
+
+    Gitignore
+
+[33mcommit 92b721e5a988c686842b39279594eb08ff4df7cc[m
+Author: Lucas Adamczyk <lukaszadamczy@gmail.com>
+Date:   Tue Nov 26 10:28:23 2024 +0000
+
+    Initial commit
