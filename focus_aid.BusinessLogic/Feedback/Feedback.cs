@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace focus_aid.BusinessLogic.Feedback
 {
-    public class Feeback : IFeedback
+    public class Feedback : IFeedback
     {
         public string? Message { get; set; }
         public bool Success { get; set; }

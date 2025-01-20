@@ -5,16 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// CountdownSessionManager manages Countdown, Feedbac and Report 
-
-
-namespace focus_aid.BusinessLogic.Countdown
+namespace focus_aid.BusinessLogic.Feedback
 {
-    public class CountdownManager : IManager
+    public class FeedbackManager : IManager
     {
-        public Countdown Countdown { get; set; }
-        public CountdownManager()
-        { }
+        public Feedback Feedback { get; set; }
+        public FeedbackManager()
+        {
+            
+        }
 
         public bool ReceiveDTOFromMessageBus(UIDTO uiDTO)
         {
