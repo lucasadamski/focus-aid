@@ -10,4 +10,9 @@
     <ProjectReference Include="..\focus_aid.DataAccess\focus_aid.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Feedback\" />
+    <Folder Include="Report\" />
+  </ItemGroup>
+
 </Project>

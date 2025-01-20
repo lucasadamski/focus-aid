@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 // CountdownSessionManager manages Countdown, Feedbac and Report 
 
 
-namespace focus_aid.BusinessLogic
+namespace focus_aid.BusinessLogic.Countdown
 {
-    public class CountdownManager 
+    public class CountdownManager
     {
         public Countdown CountdownSession { get; set; }
         public CountdownManager()

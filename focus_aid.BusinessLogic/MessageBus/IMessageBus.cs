@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace focus_aid.BusinessLogic
+namespace focus_aid.BusinessLogic.MessageBus
 {
     public interface IMessageBus
     {

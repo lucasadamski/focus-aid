@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace focus_aid.BusinessLogic
+namespace focus_aid.BusinessLogic.Countdown
 {
     public class Countdown : ICountdown
     {
@@ -12,6 +12,8 @@ namespace focus_aid.BusinessLogic
         public int InitialSeconds { get; private set; }
         public int SecondsElapsed { get; private set; }
 
+        public Countdown()
+        { }
         public Countdown(int initialSeconds)
         {
             InitialSeconds = initialSeconds;
@@ -24,7 +26,7 @@ namespace focus_aid.BusinessLogic
         public bool Pause()
         {
             bool result = false;
-            if(IsSessionActive == false)
+            if (IsSessionActive == false)
             {
                 IsSessionActive = true;
                 result = true;
