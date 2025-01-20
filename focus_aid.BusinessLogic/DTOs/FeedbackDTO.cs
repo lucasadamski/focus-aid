@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace focus_aid.BusinessLogic.DTOs
 {
-    public struct CountdownSessionDTO
+    public class FeedbackDTO : UIDTO
     {
-        int Seconds;
-        string FeedbackMessage;
-        Instruction Instruction;
+        public string? Feedback { get; set; }
+        public bool Success { get; set; }
     }
 }

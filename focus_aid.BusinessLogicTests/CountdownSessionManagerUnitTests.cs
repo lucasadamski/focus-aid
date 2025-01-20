@@ -13,7 +13,7 @@ namespace focus_aid.BusinessLogicTests
         public void Start_InitializesWithoutSeconds_ReturnsFalse()
         {
             // Arrange
-            var csm = new CountdownSessionManager();
+            var csm = new CountdownManager();
 
             // Act
             bool result = csm.Start();

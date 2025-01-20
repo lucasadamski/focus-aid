@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace focus_aid.BusinessLogic
 {
-    public interface ICountdownSession
+    public interface ICountdown
     {
         bool Start();
         bool Stop();

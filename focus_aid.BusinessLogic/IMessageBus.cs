@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace focus_aid.BusinessLogic
 {
-    public interface ICommunicationWithUI
+    public interface IMessageBus
     {
-        CountdownSessionDTO SendToUI();
-        bool ReceiveFromUI(CountdownSessionDTO countdownSessionDTO);
+        UIDTO SendToUI();
+        bool ReceiveFromUI(UIDTO countdownSessionDTO);
     }
 }

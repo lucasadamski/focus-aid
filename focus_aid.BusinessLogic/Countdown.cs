@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace focus_aid.BusinessLogic
 {
-    public class CountdownSession : ICountdownSession
+    public class Countdown : ICountdown
     {
         public bool IsSessionActive { get; private set; }
         public int InitialSeconds { get; private set; }
         public int SecondsElapsed { get; private set; }
 
-        public CountdownSession(int initialSeconds)
+        public Countdown(int initialSeconds)
         {
             InitialSeconds = initialSeconds;
         }
