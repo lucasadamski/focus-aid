@@ -9,7 +9,7 @@ namespace focus_aid.BusinessLogic.Feedback
     public interface IFeedback
     {
         public bool WriteFeedback(string message);
-        public string ReadFeedback();
+        public string? ReadFeedback();
         public bool MarkSuccess(bool successful);
 
     }

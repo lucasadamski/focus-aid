@@ -13,17 +13,30 @@ namespace focus_aid.BusinessLogic.Feedback
 
         public bool MarkSuccess(bool successful)
         {
-            throw new NotImplementedException();
+            Success = successful;
+            return true;
         }
 
-        public string ReadFeedback()
-        {
-            throw new NotImplementedException();
-        }
+        public string? ReadFeedback() => Message;
 
         public bool WriteFeedback(string message)
         {
-            throw new NotImplementedException();
+            bool result = false;
+            if(string.IsNullOrEmpty(message))
+            {
+                result = false;
+            }
+            if (message.Length < 26)
+            {
+                Message = message;
+                result = true;
+            }
+            else
+            {
+                Message = message.Substring(0, 25);
+                result = true;
+            }
+            return result;
         }
     }
 }
