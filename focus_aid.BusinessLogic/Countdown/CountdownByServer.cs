@@ -5,23 +5,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// CountdownSessionManager manages Countdown, Feedbac and Report 
-
-
 namespace focus_aid.BusinessLogic.Countdown
 {
-    public class CountdownManager : IManager
+    public class CountdownByServer : ICountdownStrategy
     {
-        public CoutdownByDelegatingToUi Countdown { get; set; }
-        public CountdownManager()
-        { }
-
-        public bool ReceiveDTOFromMessageBus(UiDto uiDTO)
+        public CountdownDto Cancel()
         {
             throw new NotImplementedException();
         }
 
-        public UiDto SendDTOToMessageBus()
+        public CountdownDto Pause()
+        {
+            throw new NotImplementedException();
+        }
+
+        public CountdownDto Start()
+        {
+            throw new NotImplementedException();
+        }
+
+        public CountdownDto Stop()
         {
             throw new NotImplementedException();
         }

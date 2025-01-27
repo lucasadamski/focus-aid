@@ -9,6 +9,6 @@ namespace focus_aid.BusinessLogic.DTOs
     public class FeedbackDto : UiDto
     {
         public string? Feedback { get; set; }
-        public bool Success { get; set; }
+        public bool Successful { get; set; }
     }
 }

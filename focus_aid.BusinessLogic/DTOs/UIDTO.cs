@@ -8,6 +8,7 @@ namespace focus_aid.BusinessLogic.DTOs
 {
     public class UiDto
     {
-
+        public bool Success { get; set; }
+        public string Message { get; set; }
     }
 }

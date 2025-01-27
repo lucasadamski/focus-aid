@@ -3,60 +3,63 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using focus_aid.BusinessLogic.DTOs;
 
 namespace focus_aid.BusinessLogic.Countdown
 {
-    public class Countdown : ICountdown
+    public class CoutdownByDelegatingToUi : ICountdownStrategy
     {
         public bool IsSessionActive { get; private set; }
         public int InitialSeconds { get; private set; }
         public int SecondsElapsed { get; private set; }
 
-        public Countdown()
+        public CoutdownByDelegatingToUi()
         { }
-        public Countdown(int initialSeconds)
+        public CoutdownByDelegatingToUi(int initialSeconds)
         {
             InitialSeconds = initialSeconds;
         }
 
-        public bool Cancel()
+        public CountdownDto Cancel()
         {
             throw new NotImplementedException();
         }
-        public bool Pause()
+        public CountdownDto Pause()
         {
-            bool result = false;
+            CountdownDto result = new CountdownDto();
             if (IsSessionActive == false)
             {
                 IsSessionActive = true;
-                result = true;
+                result.Success = true;
             }
             else
             {
-                result = false;
+                result.Success = false;
             }
             return result;
         }
 
-        public bool Start()
+        public CountdownDto Start()
         {
-            bool result = false;
+            CountdownDto result = new CountdownDto();
             if (InitialSeconds < 1)
             {
-                result = false;
+                result.Success = false;
             }
             else
             {
                 IsSessionActive = true;
-                result = true;
+                result.Success = true;
             }
             return result;
         }
 
-        public bool Stop()
+        public CountdownDto Stop()
         {
+            CountdownDto result = new CountdownDto();
+            result.Success = true;
             IsSessionActive = false;
-            return true;
+            return result;
         }
     }
 }
