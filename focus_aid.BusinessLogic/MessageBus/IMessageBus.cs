@@ -9,7 +9,7 @@ namespace focus_aid.BusinessLogic.MessageBus
 {
     public interface IMessageBus
     {
-        UIDTO SendToUI();
-        bool ReceiveFromUI(UIDTO countdownSessionDTO);
+        UiDto SendToUI();
+        bool ReceiveFromUI(UiDto countdownSessionDTO);
     }
 }

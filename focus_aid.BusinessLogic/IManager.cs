@@ -9,7 +9,7 @@ namespace focus_aid.BusinessLogic
 {
     public interface IManager
     {
-        bool ReceiveDTOFromMessageBus(UIDTO uiDTO);
-        UIDTO SendDTOToMessageBus();
+        bool ReceiveDTOFromMessageBus(UiDto uiDTO);
+        UiDto SendDTOToMessageBus();
     }
 }

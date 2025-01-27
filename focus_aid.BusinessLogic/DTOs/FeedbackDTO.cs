@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace focus_aid.BusinessLogic.DTOs
 {
-    public class FeedbackDTO : UIDTO
+    public class FeedbackDto : UiDto
     {
         public string? Feedback { get; set; }
         public bool Success { get; set; }

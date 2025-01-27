@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace focus_aid.BusinessLogic.DTOs
 {
-    public class UIDTO
+    public class UiDto
     {
 
     }

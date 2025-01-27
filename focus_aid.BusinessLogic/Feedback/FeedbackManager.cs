@@ -15,12 +15,12 @@ namespace focus_aid.BusinessLogic.Feedback
             
         }
 
-        public bool ReceiveDTOFromMessageBus(UIDTO uiDTO)
+        public bool ReceiveDTOFromMessageBus(UiDto uiDTO)
         {
             throw new NotImplementedException();
         }
 
-        public UIDTO SendDTOToMessageBus()
+        public UiDto SendDTOToMessageBus()
         {
             throw new NotImplementedException();
         }

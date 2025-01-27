@@ -16,12 +16,12 @@ namespace focus_aid.BusinessLogic.Countdown
         public CountdownManager()
         { }
 
-        public bool ReceiveDTOFromMessageBus(UIDTO uiDTO)
+        public bool ReceiveDTOFromMessageBus(UiDto uiDTO)
         {
             throw new NotImplementedException();
         }
 
-        public UIDTO SendDTOToMessageBus()
+        public UiDto SendDTOToMessageBus()
         {
             throw new NotImplementedException();
         }

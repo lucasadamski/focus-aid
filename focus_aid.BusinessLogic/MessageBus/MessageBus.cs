@@ -12,12 +12,12 @@ namespace focus_aid.BusinessLogic.MessageBus
     /// </summary>
     public class MessageBus : IMessageBus
     {
-        public bool ReceiveFromUI(UIDTO countdownSessionDTO)
+        public bool ReceiveFromUI(UiDto countdownSessionDTO)
         {
             throw new NotImplementedException();
         }
 
-        public UIDTO SendToUI()
+        public UiDto SendToUI()
         {
             throw new NotImplementedException();
         }

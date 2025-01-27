@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace focus_aid.BusinessLogic.DTOs
 {
-    public class CountdownDTO : UIDTO
+    public class CountdownDto : UiDto
     {
         public int Seconds { get; set; }
         public CountdownInstruction Instruction { get; set; }
