@@ -21,7 +21,7 @@ namespace focus_aid.BusinessLogic.Countdown
 
         public CountdownDto Start()
         {
-            throw new NotImplementedException();
+            return new CountdownDto() { Seconds = 0, Success = true, Message = "Test countdown successful!" };
         }
 
         public CountdownDto Stop()
