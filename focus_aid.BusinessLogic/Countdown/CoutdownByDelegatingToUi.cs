@@ -1,4 +1,4 @@
-﻿using DTO;
+﻿using focus_aid.DTO;
 
 namespace focus_aid.BusinessLogic.Countdown
 {
