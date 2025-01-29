@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace focus_aid.BusinessLogic.Enums
+namespace DTO
 {
     public enum CountdownInstruction
     {

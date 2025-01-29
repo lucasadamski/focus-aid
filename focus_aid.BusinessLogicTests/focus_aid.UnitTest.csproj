@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj" />
     <ProjectReference Include="..\focus_aid.BusinessLogic\focus_aid.BusinessLogic.csproj" />
   </ItemGroup>
 

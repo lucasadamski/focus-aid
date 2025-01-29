@@ -1,11 +1,10 @@
-﻿using focus_aid.BusinessLogic.Enums;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace focus_aid.BusinessLogic.DTOs
+namespace DTO
 {
     public class CountdownDto : UiDto
     {

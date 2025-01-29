@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj" />
     <ProjectReference Include="..\focus_aid.DataAccess\focus_aid.DataAccess.csproj" />
   </ItemGroup>
 

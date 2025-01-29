@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "focus_aid.DataAccess", "foc
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "focus_aid.Prod_DB", "focus_aid.Prod_DB\focus_aid.Prod_DB.sqlproj", "{6D235D79-0B7E-4F03-9719-261C7901350C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "focus_aid.BusinessLogicTests", "focus_aid.BusinessLogicTests\focus_aid.BusinessLogicTests.csproj", "{D49D4009-DAB1-4E5C-94E3-729600BC28C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "focus_aid.UnitTest", "focus_aid.BusinessLogicTests\focus_aid.UnitTest.csproj", "{D49D4009-DAB1-4E5C-94E3-729600BC28C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{8F747D42-C2B5-40C9-89DE-4CAB87DE48CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{D49D4009-DAB1-4E5C-94E3-729600BC28C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D49D4009-DAB1-4E5C-94E3-729600BC28C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D49D4009-DAB1-4E5C-94E3-729600BC28C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F747D42-C2B5-40C9-89DE-4CAB87DE48CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F747D42-C2B5-40C9-89DE-4CAB87DE48CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F747D42-C2B5-40C9-89DE-4CAB87DE48CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F747D42-C2B5-40C9-89DE-4CAB87DE48CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
